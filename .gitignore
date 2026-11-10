@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Raw Kaggle data — re-downloadable via kaggle CLI, not shipped in repo
+data/*
+!data/.gitkeep
+catboost_info/
+.pytest_cache/
